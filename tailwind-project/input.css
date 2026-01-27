@@ -1,0 +1,332 @@
+
+@import "tailwindcss"; 
+
+@theme {
+  --color-brand-blue: #1B3651;
+  --color-brand-gold: #eab308;
+}
+.mainSection{
+  background:#1B3651;
+}
+section h3{
+  color: #d4a74c;
+}
+section h2{
+  color: #0f2a4a;
+}
+.whySection .icon{
+  background: #d4a74c;
+}
+.whySection .card{
+   
+  background-color: white;
+  border: 1px solid #d4a74c;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
+.whySection .card:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 
+              0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+.ourService p,.ourService .grid h3{
+  text-align: left;
+}
+ 
+
+button:hover{
+  background-color: #eab308;
+}
+.ourStories .grid{
+  text-align: left;
+} 
+.edubrukeSection .grid{
+  text-align: left;
+}
+.edubrukeSection h2{
+  color: white;
+}
+
+.edubrukeSection .card {
+  background-color: rgba(255, 255, 255, 0.1);  
+  backdrop-filter: blur(4px); 
+  -webkit-backdrop-filter: blur(4px); 
+  border: 1px solid rgba(255, 255, 255, 0.05); 
+  padding: 2rem; 
+  border-radius: 1.5rem; 
+  transition: all 0.3s ease; 
+}
+
+.edubrukeSection .card:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.edubrukeSection .card .card-body{
+
+  width: 3rem;  /* أي ما يعادل 48px */
+  height: 3rem; 
+  background-color: rgba(234, 179, 8, 0.2); 
+  border-radius: 0.75rem; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem; 
+  color: #eab308;
+
+}
+.faqSection{
+  background-color: white;
+}
+
+.startSecrtion{
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;  
+  padding-right: 1.5rem; 
+}
+
+.decription-start{
+  background-color:#1B3651 ;
+  border-radius: 2rem;
+  padding: 3rem; /* p-12 */
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 768px) {
+.decription-start{
+    padding: 5rem; /* md:p-20 */
+  }
+}
+.decription-start h2{
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.25; 
+  margin-bottom: 1.5rem;
+}
+@media (max-width: 768px) {
+  .decription-start h2{
+    font-size: 2rem; /* md:text-6xl */
+  }
+}
+.decription-start p{
+  color: #d1d5db; /* gray-300 */
+  font-size: 1.125rem; /* text-lg */
+  line-height: 1.625; /* leading-relaxed */
+  max-width: 42rem; /* max-w-2xl */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.5rem;
+}
+@media (max-width: 768px) {
+.decription-start p{
+    font-size: 1rem;
+  }
+}
+ button {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 1rem 2rem;
+  border-radius: 0.75rem;
+  font-weight: 700;
+  font-size: 1.125rem;
+  transition: all 0.2s ease;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px); 
+}
+
+ .button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+ .button1{
+  background-color: #d4a74c;
+}
+footer{
+  background-color:#1B3651 ;
+}
+
+
+/*aboutsection*/
+.aboutSec1{
+  /* Color and Background */
+  background-color: #0b1d3f;
+  padding: 1.5rem;
+    text-align: left;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+/* Tablet and Desktop: md:p-20 (80px) */
+@media (min-width: 768px) {
+  .aboutSec1{
+    padding: 5rem;
+  }
+}
+.aboutSec1 span{
+  color: #c5a059;        
+  font-size: 0.875rem;    
+  font-weight: 700;       
+  letter-spacing: 0.1em;  
+  text-transform: uppercase; 
+  margin-bottom: 1rem;    
+  display: block;
+}
+.aboutSec1 h1{
+
+}
+.aboutSec1 h1{
+  color: #ffffff;            
+  font-weight: 900;         
+  line-height: 1.25;        
+  margin-bottom: 1.5rem;     
+  max-width: 48rem;          
+  font-size:3rem;        
+}
+
+.aboutSec1 p{
+   color: #d1d5db;            
+  margin-bottom: 2.5rem;    
+  max-width: 42rem;         
+  line-height: 1.625;        
+    font-size: 1.125rem;  
+}         
+
+.aboutsec2{
+  background-color: #ffffff; /* bg-white */
+  
+  padding-top: 5rem;        /* py-20: (80px) */
+  padding-bottom: 5rem;     /* py-20: (80px) */
+  padding-left: 2.5rem;      /* px-10: (40px) */
+  padding-right: 2.5rem;
+}
+/* .aboutsec2 p{
+  font-weight: 700;           
+  letter-spacing: 0.2em;   
+  font-size: 0.875rem;        
+  margin-bottom: 1rem;       
+  text-transform: uppercase;  
+  display: block;
+} */
+.aboutsec2 h2{
+  color: #0b1d3f;         
+  font-weight: 900;         
+  line-height: 1.25;        
+  margin-bottom: 2.5rem;     
+  
+  font-size: 2.25rem;
+}
+.ourEdubruke{
+  background-color: #f3f4f6;
+}
+.ourEdubruke .cardEdubreke{
+  background-color: #f3f4f6;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+.ourEdubruke .cardEdubreke{
+  background-color: #ffffff;
+  padding: 2.5rem; 
+  border-radius: 2.5rem;
+  box-shadow: 0 20px 25px -5px rgba(229, 231, 235, 0.5), 
+              0 8px 10px -6px rgba(229, 231, 235, 0.5);
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  transition: transform 0.3s ease-in-out;
+}
+
+.ourEdubruke .cardEdubreke:hover {
+  transform: translateY(-4px); 
+}
+.ourEdubruke .card-body{
+  width: 3.5rem; 
+  height: 3.5rem; 
+  background-color: #fffaf0; 
+  border-radius: 1rem; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media (min-width: 768px) {
+  .ourEdubruke .cardEdubreke{
+    padding: 3rem; 
+  }
+}
+.standSection h3{
+  color: #c5a059;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 0.875rem; 
+  display: block;
+
+}
+
+.standSection h2{
+  color: #0b1d3f;
+  font-weight: 900;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+  font-size: 2.25rem; 
+}
+
+@media (min-width: 768px) {
+  .standSection h2{
+    font-size: 3rem;
+  }
+}
+.standSection p{
+  color: #6b7280;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  line-height: 1.625;
+  display: block;
+}
+.standSection .card{
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid #f3f4f6;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.standSection .card:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 
+              0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  transform: translateY(-4px);
+}
+
+.standSection .card .icon{
+  background-color: #d4a74c;
+  width: 3.5rem; 
+  height: 3.5rem;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 1rem; 
+
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card:hover .icon{
+  background-color: #0b1d3f;
+}
+
+.card:hover .icon i {
+  color: #ffffff;
+}

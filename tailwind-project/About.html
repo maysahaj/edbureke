@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="./output.css" rel="stylesheet">
+  <link href="./input.css" rel="stylesheet">
+
+ 
+</head>
+<body > 
+   <div class="container mx-auto bg-white shadow-xl py-4 overflow-hidden">
+    
+    <header class="border-b border-gray-100 bg-white sticky top-0 z-50">
+        <nav class="flex items-center justify-between  px-2 lg:px-16 mx-auto max-w-7xl">
+            
+            <div class="flex items-center gap-3">
+                <div class="bg-brand-blue p-2 rounded-xl">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+                        <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path>
+                    </svg>
+                </div>
+                <div class="flex flex-col leading-tight">
+                    <span class="text-xl font-bold text-brand-blue tracking-tight">Edubruke</span>
+                    <span class="text-[9px] text-gray-400 uppercase tracking-widest font-semibold">The Educational Bridge</span>
+                </div>
+            </div>
+
+            <div class="hidden lg:flex items-center gap-x-8">
+                <a href="index.html" class="text-sm font-bold text-brand-blue hover:text-brand-gold transition">Home</a>
+                <a href="#" class="text-sm font-semibold text-gray-600 hover:text-brand-blue transition">About</a>
+                <a href="#" class="text-sm font-semibold text-gray-600 hover:text-brand-blue transition">Services</a>
+                <a href="#" class="text-sm font-semibold text-gray-600 hover:text-brand-blue transition">Blog</a>
+                <a href="#" class="text-sm font-semibold text-gray-600 hover:text-brand-blue transition">Contact</a>
+            </div>
+
+            <div class="flex items-center gap-4">
+                <div class="hidden md:block">
+                    <a href="#" class="bg-brand-gold hover:bg-yellow-500 text-brand-blue font-bold py-2.5 px-6 rounded-xl transition shadow-md text-sm">
+                        Book Free Consultation
+                    </a>
+                </div>
+
+                <button id="menu-btn" class="lg:hidden p-2 text-brand-blue rounded-lg bg-gray-50 hover:bg-gray-100 transition focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-gray-100 absolute w-full left-0 shadow-xl z-40">
+            <div class="flex flex-col p-6 space-y-4">
+                <a href="#" class="text-base font-bold text-brand-blue border-b pb-2">Home</a>
+                <a href="#" class="text-base font-semibold text-gray-600 border-b pb-2">About</a>
+                <a href="#" class="text-base font-semibold text-gray-600 border-b pb-2">Services</a>
+                <a href="#" class="text-base font-semibold text-gray-600 border-b pb-2">Blog</a>
+                <a href="#" class="text-base font-semibold text-gray-600 border-b pb-2">Contact</a>
+                <a href="#" class="bg-brand-gold text-center text-brand-blue font-bold py-3 rounded-xl shadow-md">
+                    Book Free Consultation
+                </a>
+            </div>
+        </div>
+    </header>
+  
+    <!---------------------------->
+    <section class="aboutSec1 mt-5">
+        <div class="container mx-auto max-w-7xl px-6 md:px-12">           
+            <span>ABOUT EDUBRUKE</span>
+            <h1>The Educational Bridge to Germany</h1>
+            <p>
+            We're a Germany-based educational consulting company dedicated to helping 
+            students from the Arab world access higher education opportunities in Germany.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+            <button class="button1">Get Started</button>
+            <button class="button2">Learn More</button>
+            </div>
+        </div>
+    </section>
+    <!----------------------------------->
+    <section class="aboutsec2 py-20 md:py-32 px-10 md:px-24">
+        <div class="container mx-auto max-w-7xl px-6 md:px-12">           
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">        
+            <div>
+                <p class="text-[#c5a059]"> Who We Are</p>       
+                <h2 class="">
+                    Your Partner in Academic Success
+                </h2>
+
+                <div class="space-y-6 text-gray-600 text-lg leading-relaxed mb-16">
+                    <p>
+                    Edubruke was founded with a simple mission: to make German education 
+                    accessible to ambitious students from the Arab world.
+                    </p>
+                    <p>
+                    Our team combines deep knowledge of German universities with cultural 
+                    understanding of our students' backgrounds.
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-12 border-gray-100 pt-10">
+                    <div>
+                    <p class="text-[#0b1d3f] text-5xl font-black mb-1">500+</p>
+                    <p class="text-gray-500 font-bold text-xs tracking-widest uppercase">Students Helped</p>
+                    </div>
+                    <div>
+                    <p class="text-[#0b1d3f] text-5xl font-black mb-1">95%</p>
+                    <p class="text-gray-500 font-bold text-xs tracking-widest uppercase">Success Rate</p>
+                    </div>
+                    <div>
+                    <p class="text-[#0b1d3f] text-5xl font-black mb-1">50+</p>
+                    <p class="text-gray-500 font-bold text-xs tracking-widest uppercase">Partner Universities</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative w-full aspect-square">
+            <div class="w-full h-full bg-gray-50 rounded-[3rem] border border-gray-100 shadow-2xl flex items-center justify-center overflow-hidden">
+                <p class="text-gray-400 italic">Students at a German university</p>
+            </div>
+            <div class="absolute -top-10 -right-10 w-64 h-64 bg-[#c5a059]/10 blur-[100px] rounded-full -z-10"></div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--------------------------------------------->
+    <section class="ourEdubruke py-20 px-10 md:px-24">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">    
+            <div class="cardEdubreke">
+            <div class="card-body flex items-center justify-center mb-1">
+                <i class="fa-solid fa-bullseye text-2xl text-[#0b1d3f]"></i>
+            </div>
+            
+            <h3 class="text-[#0b1d3f] text-3xl font-black mb-6">Our Mission</h3>
+            
+            <p class="text-gray-500 text-lg leading-relaxed">
+                To bridge the gap between ambitious students from the Arab world and German universities through expert guidance, honest consulting, and personalized support. We believe every student deserves access to world-class education.
+            </p>
+            </div>
+
+            <div class="cardEdubreke">
+            <div class="card-body flex items-center justify-center mb-1">
+                <i class="fa-solid fa-eye text-2xl text-[#c5a059]"></i>
+            </div>
+            
+            <h3 class="text-[#0b1d3f] text-3xl font-black mb-6">Our Vision</h3>
+            
+            <p class="text-gray-500 text-lg leading-relaxed">
+                To become the most trusted educational bridge between the Arab world and Germany, recognized for our integrity, expertise, and the lasting success of our students. We envision a future where borders don't limit educational opportunities.
+            </p>
+            </div>
+        </div>
+    </section>
+    <!------------------------------------------->
+    <section class="standSection bg-gray-50 py-20 whySection">
+        <div class="container mx-auto max-w-7xl px-6 md:px-12">
+            
+            <div class="text-center mb-16 space-y-4">
+                <h3>Our Values</h3>
+                <h2 class="">What We Stand For</h2>
+                <p>These core values guide everything we do at Edubruke.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <div class="card flex flex-col items-start space-y-5 group">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart text-2xl text-[#0b1d3f] group-hover:text-white"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-[#0b1d3f]">Transparency</h4>
+                    <p class="text-gray-500 text-sm leading-relaxed">
+                        We believe in honest communication. No hidden fees, no false promises – just clear guidance.
+                    </p>
+                </div>
+
+                <div class="card flex flex-col items-start space-y-5 group">
+                    <div class="icon ">
+                        <i class="fa-solid fa-users-viewfinder text-2xl text-[#0b1d3f] group-hover:text-white"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-[#0b1d3f]">Student-First</h4>
+                    <p class="text-gray-500 text-sm leading-relaxed">
+                        Your success is our priority. Every decision we make is with your best interests in mind.
+                    </p>
+                </div>
+
+                <div class="card flex flex-col items-start space-y-5 group">
+                    <div class="icon">
+                        <i class="fa-regular fa-circle-check text-2xl text-[#0b1d3f] group-hover:text-white"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-[#0b1d3f]">Accuracy</h4>
+                    <p class="text-gray-500 text-sm leading-relaxed">
+                        We provide precise, up-to-date information about German universities and requirements.
+                    </p>
+                </div>
+
+                <div class="card flex flex-col items-start space-y-5 group">
+                    <div class="icon">
+                        <i class="fa-regular fa-bookmark text-2xl text-[#0b1d3f] group-hover:text-white"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-[#0b1d3f]">Long-term Success</h4>
+                    <p class="text-gray-500 text-sm leading-relaxed">
+                        We don't just help you get admitted – we help you build a successful academic journey.
+                    </p>
+                </div>
+            </div>
+
+            <div class="mt-16 text-center">
+                <a href="#" class="inline-flex items-center justify-center px-10 py-4 bg-[#0b1d3f] text-white font-bold rounded-xl shadow-lg hover:bg-blue-900 transition-all duration-300">
+                    Discover How We Help
+                </a>
+            </div>
+        </div>
+    </section>
+    <!------------------------------------------>
+      <div class="startSecrtion mb-5">
+        <div class="decription-start ">
+            <div class="relative z-10">
+                <h2 class="  md:text-6xl">
+                    Ready to Talk to Our Team?
+                </h2>
+                <p>
+               Schedule a free consultation and let's discuss how we can help you achieve your dream of studying in Germany.
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <button class="button1">
+                        Contact Our Team <i class="fa-solid fa-arrow-right text-sm"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------>
+    <footer class="text-gray-300 py-16">
+        <div class="container mx-auto max-w-7xl px-6 md:px-12">
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                
+                <div class="space-y-6">
+                    <div class="flex items-center gap-3">
+                        <div class="bg-[#eab308] p-2 rounded-lg shadow-lg">
+                            <svg class="w-6 h-6 text-[#0f172a]" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M10.394 2.827a1 1 0 00-.788 0l-7 3a1 1 0 000 1.848l.73.313A3.001 3.001 0 003 11v1a3 3 0 003 3h8a3 3 0 003-3v-1a3 3 0 00-1.336-2.512l.73-.313a1 1 0 000-1.848l-7-3zM3 11a1 1 0 011-1h12a1 1 0 011 1v1a1 1 0 01-1 1H4a1 1 0 01-1-1v-1zm14.707-3.293a1 1 0 00-1.414 0L10 14.086l-6.293-6.293a1 1 0 00-1.414 1.414l7 7a1 1 0 001.414 0l7-7a1 1 0 000-1.414z"></path>
+                            </svg>
+                        </div>
+                        <div class="flex flex-col leading-tight">
+                            <span class="text-xl font-bold text-white tracking-tight">Edubruke</span>
+                            <span class="text-[10px] text-gray-400 uppercase tracking-widest">The Educational Bridge</span>
+                        </div>
+                    </div>
+                    <p class="text-sm leading-relaxed text-gray-400 max-w-xs">
+                        Helping students from the Arab world secure admission to top German universities through personalized educational consulting.
+                    </p>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-center gap-3">
+                            <svg class="w-4 h-4 text-[#eab308]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            Germany
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <svg class="w-4 h-4 text-[#eab308]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                            info@edubruke.com
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <svg class="w-4 h-4 text-[#eab308]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                            +49 123 456 789
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-bold mb-6">Company</h3>
+                    <ul class="space-y-4 text-sm">
+                        <li><a href="#" class="hover:text-[#eab308] transition">About Us</a></li>
+                        <li><a href="#" class="hover:text-[#eab308] transition">Our Services</a></li>
+                        <li><a href="#" class="hover:text-[#eab308] transition">Blog</a></li>
+                        <li><a href="#" class="hover:text-[#eab308] transition">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-bold mb-6">Services</h3>
+                    <ul class="space-y-4 text-sm">
+                        <li><a href="#" class="hover:text-[#eab308] transition">Basic Package</a></li>
+                        <li><a href="#" class="hover:text-[#eab308] transition">Advanced Package</a></li>
+                        <li><a href="#" class="hover:text-[#eab308] transition">Premium Package</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-bold mb-6">Resources</h3>
+                    <ul class="space-y-4 text-sm">
+                        <li><a href="#" class="hover:text-[#eab308] transition">Study in Germany</a></li>
+                        <li><a href="#" class="hover:text-[#eab308] transition">University Admission</a></li>
+                        <li><a href="#" class="hover:text-[#eab308] transition">Visa & Preparation</a></li>
+                        <li><a href="#" class="hover:text-[#eab308] transition">FAQ</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-medium text-gray-500">
+                <p>© 2026 Edubruke. All rights reserved.</p>
+                <div class="flex gap-8">
+                    <a href="#" class="hover:text-white transition">Privacy Policy</a>
+                    <a href="#" class="hover:text-white transition">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--------------------------------------->
+ 
+</div>
+<script> 
+
+</script>
+<script src="./tailwind.config.js"></script>
+</body>
+
+</html> 
