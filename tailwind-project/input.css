@@ -394,3 +394,215 @@ border-radius: 2rem;
   background-size: 32px 32px;
   background-position: 0 0, 16px 16px;
 }
+.formSection{
+
+}
+.formSection{
+    padding: 1.5rem; 
+    border: 1px solid #f9fafb; 
+    border-radius: 2rem; 
+    background-color: white;
+    box-shadow: 0 25px 50px -12px rgba(243, 244, 246, 1); 
+}
+
+@media (min-width: 768px) {
+    .formSection{
+        padding: 3rem; 
+        border-radius: 2.5rem; 
+    }
+}
+.formSection h2{
+    color: #0b1d3f;
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.75rem;
+    font-weight: 900;
+    letter-spacing: -0.02em; 
+}
+.formSection input{
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background-color: #f9fafb;
+    border: 1px solid #3b64b6;
+    border-radius: 0.75rem;
+    font-size: 0.875rem;
+    transition: all 0.3s ease;
+    outline: none;
+    box-sizing: border-box; 
+}
+
+@media (min-width: 768px) {
+    .formSection input{
+        padding: 1rem 1.25rem;
+    }
+}
+
+.formSection input:focus {
+    border-color: #c5a059;
+    background-color: #ffffff; 
+    box-shadow: 0 0 0 4px rgba(197, 160, 89, 0.1);
+}
+.formSection select{
+    background-color: #f9fafb;
+    border: 1px solid #87a7e6;
+    border-radius: 0.75rem; /* حوالي 12px */
+    font-size: 0.875rem; /* 14px */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    transition: all 0.3s ease-in-out;
+    padding: 0.75rem 1rem;
+    width: 100%;
+    outline: none;
+}
+
+.formSection select:focus {
+    outline: none;
+    border-color: #c5a059;
+    background-color: #ffffff; 
+    box-shadow: 0 0 0 3px rgba(197, 160, 89, 0.1);
+}
+.formSection textarea{
+    width: 100%;
+    background-color: #f9fafb;
+    border: 1px solid #96b2ec;
+    border-radius: 0.75rem;
+    font-size: 0.875rem;
+    resize: none;
+    transition: all 0.3s ease;
+    padding: 1rem;
+    color: #0b1d3f;
+    outline: none;
+    box-sizing: border-box;
+}
+.formSection textarea:focus {
+    outline: none;
+    border-color: #c5a059;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 4px rgba(197, 160, 89, 0.1);
+}
+
+.formSection textarea::placeholder {
+    color: #9ca3af;
+    opacity: 0.8;
+}
+.formSection button{
+
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #e0b666;
+    color: #0b1d3f;
+    border-radius: 0.75rem;
+    font-weight: 900;
+    font-size: 0.875rem;
+    box-shadow: 0 10px 15px -3px rgba(254, 249, 195, 0.5);
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase; 
+    letter-spacing: 0.05em;
+}
+
+@media (min-width: 768px) {
+    .formSection button{
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+    }
+}
+
+.formSection button:hover {
+    background-color: #d4a555;
+    transform: translateY(-2px);
+    box-shadow: 0 20px 25px -5px rgba(254, 249, 195, 0.6);
+}
+
+.formSection button:active {
+    transform: translateY(0);
+}
+.SocialSection h2{
+color: #0b1d3f;
+    font-size: 1.25rem; 
+    line-height: 1.75rem;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .SocialSection h2{
+        font-size: 1.5rem; 
+        line-height: 2rem;
+  
+    }
+}
+.SocialSection p{
+    color: #6b7280;
+    font-size: 0.875rem; 
+    line-height: 1.625;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+.SocialSection .icon{
+background-color: #ffffff;
+    border-radius: 1rem;
+    border: 1px solid #f9fafb;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .SocialSection .icon{
+        border-radius: 1.5rem; /* 24px */
+    }
+}
+.SocialSection .icon:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    
+    transform: translateY(-2px);
+    border-color: #f3f4f6;
+}
+.SocialSection .icon .icon-i{
+  background-color: #f0fdf4;
+    border-radius: 0.75rem; /* 12px */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.125rem; /* 18px */
+    margin-right: 1rem;
+    flex-shrink: 0;
+
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+@media (min-width: 768px) {
+    .icon-container-green {
+        border-radius: 1rem; /* 16px */
+        font-size: 1.25rem; /* 20px */
+        margin-right: 1.25rem;
+        width: 3rem;  
+        height: 3rem; 
+    }
+}
+.SocialSection h4{
+    color: #0b1d3f;
+    font-weight: 900;
+    font-size: 0.75rem; 
+    line-height: 1rem;
+    letter-spacing: 0.025em; 
+    -webkit-font-smoothing: antialiased;
+}
+@media (min-width: 768px) {
+    .SocialSection h4{
+        font-size: 0.875rem; 
+        line-height: 1.25rem;
+    }
+}
+
