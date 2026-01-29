@@ -1048,3 +1048,46 @@ blockquote{
     margin-bottom: 0.25rem;
     font-family: 'Inter', sans-serif;
 }
+.teamSection{
+  background-color: #f9fafb;
+}
+.teamSection h3 {
+    color: #c5a059; 
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem; 
+    display: block;
+}
+.teamSection p{
+  color: #6b7280; 
+    max-width: 42rem; 
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.625;
+}
+.teamSection .card {
+    background-color: #ffffff;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+}
+.teamSection .card:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    transform: translateY(-4px);
+}
+.teamSection .card img {
+    width: 100%;
+    height: 16rem; 
+    object-fit: cover;
+    object-position: center top;
+    transition: transform 0.5s ease;
+}
+
+.teamSection .card:hover img {
+    transform: scale(1.05);
+}
