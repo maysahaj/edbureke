@@ -327,6 +327,9 @@
   .mt-0\.5 {
     margin-top: calc(var(--spacing) * 0.5);
   }
+  .mt-1 {
+    margin-top: calc(var(--spacing) * 1);
+  }
   .mt-1\.5 {
     margin-top: calc(var(--spacing) * 1.5);
   }
@@ -1751,6 +1754,23 @@ button {
 }
 footer {
   background-color: #1B3651;
+  color: #d1d5db;
+}
+footer .desc-logo {
+  background-color: #eab308;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+.desc-logo:hover {
+  transform: scale(1.05);
+}
+footer ul li i {
+  color: #eab308;
 }
 .aboutSec1 {
   background-color: #0b1d3f;
