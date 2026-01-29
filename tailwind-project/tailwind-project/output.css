@@ -20,6 +20,7 @@
     --color-blue-600: oklch(54.6% 0.245 262.881);
     --color-blue-900: oklch(37.9% 0.146 265.522);
     --color-slate-50: oklch(98.4% 0.003 247.858);
+    --color-slate-400: oklch(70.4% 0.04 256.788);
     --color-slate-500: oklch(55.4% 0.046 257.417);
     --color-gray-50: oklch(98.5% 0.002 247.839);
     --color-gray-100: oklch(96.7% 0.003 264.542);
@@ -37,7 +38,6 @@
     --container-2xl: 42rem;
     --container-3xl: 48rem;
     --container-4xl: 56rem;
-    --container-5xl: 64rem;
     --container-6xl: 72rem;
     --container-7xl: 80rem;
     --text-xs: 0.75rem;
@@ -60,6 +60,8 @@
     --text-5xl--line-height: 1;
     --text-6xl: 3.75rem;
     --text-6xl--line-height: 1;
+    --text-7xl: 4.5rem;
+    --text-7xl--line-height: 1;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
@@ -328,6 +330,9 @@
       max-width: 96rem;
     }
   }
+  .m-auto {
+    margin: auto;
+  }
   .mx-auto {
     margin-inline: auto;
   }
@@ -504,9 +509,6 @@
   }
   .max-w-4xl {
     max-width: var(--container-4xl);
-  }
-  .max-w-5xl {
-    max-width: var(--container-5xl);
   }
   .max-w-6xl {
     max-width: var(--container-6xl);
@@ -954,6 +956,10 @@
     font-size: var(--text-5xl);
     line-height: var(--tw-leading, var(--text-5xl--line-height));
   }
+  .text-7xl {
+    font-size: var(--text-7xl);
+    line-height: var(--tw-leading, var(--text-7xl--line-height));
+  }
   .text-base {
     font-size: var(--text-base);
     line-height: var(--tw-leading, var(--text-base--line-height));
@@ -1101,6 +1107,9 @@
   }
   .text-orange-400 {
     color: var(--color-orange-400);
+  }
+  .text-slate-400 {
+    color: var(--color-slate-400);
   }
   .text-slate-500 {
     color: var(--color-slate-500);
@@ -2548,6 +2557,51 @@ footer .endSection a:hover {
 .expectedSection .icon p {
   color: #41444a;
   font-size: 16px;
+}
+.manageSection {
+  background: #eef1f5;
+}
+.manageSection .manage {
+  background-color: #ffffff;
+  border-radius: 2.5rem;
+  padding: 35px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid #f8fafc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+.manageSection .icon {
+  color: rgba(197, 160, 89, 0.2);
+}
+blockquote {
+  color: #1e293b;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.8;
+  font-style: italic;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 2.5rem auto;
+  font-family: 'Inter', sans-serif;
+}
+.manageSection h4 {
+  color: #0f172a;
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.2;
+}
+.manageSection p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-bottom: 0.25rem;
+  font-family: 'Inter', sans-serif;
 }
 @property --tw-translate-x {
   syntax: "*";

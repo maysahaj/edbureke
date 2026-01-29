@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="./output.css" rel="stylesheet">
+  <link href="./input.css" rel="stylesheet">
+
+ 
+</head>
+<body > 
+    <!------------------------------>
+    <header class="container mx-auto bg-white py-4">
+        <section class="border-b border-gray-100 bg-white sticky top-0 z-50">
+            <nav class="flex items-center justify-between  px-2 lg:px-16 mx-auto max-w-7xl">
+                
+                <div class="flex items-center gap-3">
+                    <div class="bg-brand-blue p-2 rounded-xl">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+                            <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path>
+                        </svg>
+                    </div>
+                    <div class="flex flex-col leading-tight">
+                        <span class="text-xl font-bold text-brand-blue tracking-tight">Edubruke</span>
+                        <span class="text-[9px] text-gray-400 uppercase tracking-widest font-semibold">The Educational Bridge</span>
+                    </div>
+                </div>
+
+                <div class="hidden lg:flex items-center gap-x-8">
+                    <a href="index.html" class="text-sm font-bold text-brand-blue hover:text-brand-gold transition">Home</a>
+                    <a href="About.html" class="text-sm font-semibold text-gray-600 hover:text-brand-blue transition">About</a>
+                    <a href="Services.html" class="text-sm font-semibold text-gray-600 hover:text-brand-blue transition">Services</a>
+                    <a href="Blog.html" class="text-sm font-semibold text-gray-600 hover:text-brand-blue transition">Blog</a>
+                    <a href="Contact.html" class="text-sm font-semibold text-gray-600 hover:text-brand-blue transition">Contact</a>
+                </div>
+
+                <div class="flex items-center gap-4">
+                    <div class="hidden md:block">
+                        <a href="#" class="bg-brand-gold hover:bg-yellow-500 text-brand-blue font-bold py-2.5 px-6 rounded-xl transition shadow-md text-sm">
+                            Book Free Consultation
+                        </a>
+                    </div>
+
+                    <button id="menu-btn" class="lg:hidden p-2 text-brand-blue rounded-lg bg-gray-50 hover:bg-gray-100 transition focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                    </button>
+                </div>
+            </nav>
+
+            <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-gray-100 absolute w-full left-0 shadow-xl z-40">
+                <div class="flex flex-col p-6 space-y-4">
+                    <a href="index.html" class="text-base font-bold text-brand-blue border-b pb-2">Home</a>
+                    <a href="About.html" class="text-base font-semibold text-gray-600 border-b pb-2">About</a>
+                    <a href="Services.html" class="text-base font-semibold text-gray-600 border-b pb-2">Services</a>
+                    <a href="Blog.html" class="text-base font-semibold text-gray-600 border-b pb-2">Blog</a>
+                    <a href="Contact.html" class="text-base font-semibold text-gray-600 border-b pb-2">Contact</a>
+                    <a href="#" class="bg-brand-gold text-center text-brand-blue font-bold py-3 rounded-xl shadow-md">
+                        Book Free Consultation
+                    </a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!---------------------------->
+    <!----------->
+    <section class="aboutSec1 relative md:py-24 lg:py-32 overflow-hidden">
+        <div class="absolute  absolute inset-0 opacity-10 pointer-events-none hero-pattern"></div>
+
+        <div class="container relative mx-auto max-w-7xl px-6 md:px-12 text-left">
+            <a href="#" class="inline-flex items-center gap-2 mb-8">
+                <i class="fas fa-arrow-left"></i>
+                Back to All Packages
+            </a>
+            <span>Premium Package</span>
+            <h1>Full-Service Support from Start to Admission</h1>
+            <p>Experience complete peace of mind with our hands-on, full-service support. From your first consultation to settling in Germany, we handle everything 
+                while keeping you informed every step of the way.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <button class="flex items-center justify-center gap-2 group text-sm md:text-base">
+                    Book This Package
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!----------------------------------->
+    <section class="package py-20 "> 
+        <div class="container mx-auto px-6 text-center max-w-4xl">     
+            <span class="mb-6">
+                Who this package is for
+            </span>
+            <p>
+                Students who want complete peace of mind and hands-on expert support. 
+                Perfect for busy professionals, students applying to top-tier programs, 
+                or those who prefer end-to-end service.
+            </p>
+        </div>
+    </section>
+    <!----------------------------------->
+    <section class="includedSection  py-16 flex flex-col items-center px-4">
+        <span class="mb-4 span1">What's Included</span>
+        <h2 class="mb-4"> Everything You Get</h2>
+        <div class="includedList p-8 md:p-12 w-full max-w-2xl">
+            <ul>       
+                <li class="flex items-start gap-4">
+                    <div class="icon">
+                        <i class="fas fa-check text-[10px]"></i>
+                    </div>
+                    <span>Everything in Advanced Package included</span>
+                </li>
+                <li class="flex items-start gap-4">
+                    <div class="icon flex items-center justify-center mt-1">
+                        <i class="fas fa-check text-[10px] "></i>
+                    </div>
+                    <span>Unlimited university recommendations</span>
+                </li>
+                <li class="flex items-start gap-4">
+                    <div class="icon flex items-center justify-center mt-1">
+                        <i class="fas fa-check text-[10px] "></i>
+                    </div>
+                    <span>Complete application handling (we do the work)</span>
+                </li>
+                <li class="flex items-start gap-4">
+                    <div class="icon flex items-center justify-center mt-1">
+                        <i class="fas fa-check text-[10px]"></i>
+                    </div>
+                    <span>Full document preparation and translation coordination</span>
+                </li>
+                <li class="flex items-start gap-4">
+                    <div class="icon flex items-center justify-center mt-1">
+                        <i class="fas fa-check text-[10px]"></i>
+                    </div>
+                    <span>Visa application guidance and support</span>
+                </li>
+                <li class="flex items-start gap-4">
+                    <div class="icon flex items-center justify-center mt-1">
+                        <i class="fas fa-check text-[10px]"></i>
+                    </div>
+                    <span>Accommodation search advice</span>
+                </li>
+            </ul>
+        </div> 
+    </section>
+    <!--------------------------------------------->
+    <section class="workSection py-16 px-4">
+        <div class="max-w-4xl mx-auto flex flex-col items-center">         
+            <span class="mb-3">The Process</span>
+            <h2 class="mb-12"> How It Works</h2>
+            <div class="relative w-full max-w-3xl">         
+                <div class="absolute left-6 md:left-8 top-8 bottom-7 w-[1px] bg-gray-300"></div>
+                <div class="space-y-8 relative z-10">
+                    
+                    <div class="flex items-center gap-6 md:gap-10">
+                        <div class="sort-number">
+                            1
+                        </div>
+                        <div class="sort-desc">
+                            <h3 class="mb-2">Personal Advisor Assignment</h3>
+                            <p>
+                            Meet your dedicated advisor who will guide you through the entire journey.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-6 md:gap-10">
+                        <div class="sort-number">
+                            2
+                        </div>
+                        <div class="sort-desc">
+                            <h3 class="mb-2">Comprehensive Planning</h3>
+                            <p>
+                            Create a detailed plan covering universities, timeline, and all requirements.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-6 md:gap-10">
+                        <div class="sort-number">
+                            3
+                        </div>
+                        <div class="sort-desc">
+                            <h3 class="mb-2">We Handle Applications</h3>
+                            <p>
+                            Your advisor manages all applications, documents, and submissions for you.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-6 md:gap-10">
+                        <div class="sort-number">
+                            4
+                        </div>
+                        <div class="sort-desc">
+                            <h3 class="mb-2">We Handle Applications</h3>
+                            <p>
+                            Your advisor manages all applications, documents, and submissions for you.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-6 md:gap-10">
+                        <div class="sort-number">
+                            5
+                        </div>
+                        <div class="sort-desc">
+                            <h3 class="mb-2">We Handle Applications</h3>
+                            <p>
+                            Your advisor manages all applications, documents, and submissions for you.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------------------------------->
+    <section class="expectedSection py-16 px-4">
+        <div class="max-w-4xl mx-auto flex flex-col items-center">
+            <span class=" mb-3">Your Outcomes</span>
+            <h2 class="mb-12">Expected Results</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
+            <div class="icon flex items-start gap-4">
+                <i class="fa-solid fa-check w-5 h-5 text-orange-400 mt-1 flex-shrink-0"></i>
+                <p class="">Zero stress – we handle all the heavy lifting</p>
+            </div>
+            <div class="icon flex items-start gap-4">
+                <i class="fa-solid fa-check w-5 h-5 text-orange-400 mt-1 flex-shrink-0"></i>
+                <p class="">Zero stress – we handle all the heavy lifting</p>
+            </div>
+            <div class="icon flex items-start gap-4">
+                <i class="fa-solid fa-check w-5 h-5 text-orange-400 mt-1 flex-shrink-0"></i>
+                <p class="">Zero stress – we handle all the heavy lifting</p>
+            </div>
+            <div class="icon flex items-start gap-4">
+                <i class="fa-solid fa-check w-5 h-5 text-orange-400 mt-1 flex-shrink-0"></i>
+                <p class="">Zero stress – we handle all the heavy lifting</p>
+            </div>
+            <div class="icon flex items-start gap-4">
+                <i class="fa-solid fa-check w-5 h-5 text-orange-400 mt-1 flex-shrink-0"></i>
+                <p class="">Zero stress – we handle all the heavy lifting</p>
+            </div>    
+            </div>
+        </div>
+    </section>
+    <!-------------------------------------->
+    <section class="manageSection py-16 px-4">
+        <div class="max-w-3xl mx-auto">
+            <div class="manage relative">
+            
+            <div class="icon mb-10">
+                <i class="fa-solid fa-quote-left text-7xl"></i>
+            </div>
+
+            <blockquote class=" mb-12 ">
+                "I was working full-time and couldn't manage applications myself. Edubruke's Premium service handled everything. I just showed up for the interviews – they prepared me for those too!"
+            </blockquote>
+
+            <div class="flex flex-col items-center">
+                <h4 class="mb-1">Fatima Al-Rashidi</h4>
+                <p class="text-slate-400 mb-1">Saudi Arabia</p>
+                <p class="text-[#c5a059]">MBA, ESMT Berlin</p>
+            </div>
+
+            </div>
+        </div>
+    </section>
+    <!-------------------------------------->
+     <div class="startSecrtion mb-5">
+        <div class="decription-start ">
+            <div class="relative z-10">
+                <h2 class="  md:text-6xl">
+                    Ready to Talk to Our Team?
+                </h2>
+                <p>
+                   Schedule a free consultation and let's discuss how we can help you achieve your dream of studying in Germany.
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <button class="button1">
+                        Contact Our Team <i class="fa-solid fa-arrow-right text-sm"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------->
+
+    <footer class="py-16">
+        <div class="container mx-auto max-w-7xl px-6 md:px-12">
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                
+                <div class="space-y-6">
+                    <div class="flex items-center gap-3">
+                        <div class="desc-logo">
+                            <i class="fas fa-graduation-cap text-[#0f172a] text-xl"></i>
+                        </div>
+                        <div class="flex flex-col leading-tight">
+                            <span class="text-xl font-bold text-white tracking-tight">Edubruke</span>
+                            <span class="text-[10px] text-gray-400 uppercase tracking-widest">The Educational Bridge</span>
+                        </div>
+                    </div>
+                    <p class="text-sm leading-relaxed text-gray-400 max-w-xs">
+                        Helping students from the Arab world secure admission to top German universities through personalized educational consulting.
+                    </p>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-center gap-3">
+                           <i class="fas fa-map-marker-alt mt-1"></i> Germany
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-envelope"></i> info@edubruke.com
+                        </li>
+                        <li class="flex items-center gap-3">
+                           <i class="fas fa-phone-alt "></i> +49 123 456 789
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-bold mb-6">Company</h3>
+                    <ul class="space-y-4 text-sm">
+                        <li><a href="About.html" class="hover:text-[#eab308] transition">About Us</a></li>
+                        <li><a href="Services.html" class="hover:text-[#eab308] transition">Our Services</a></li>
+                        <li><a href="Blog.html" class="hover:text-[#eab308] transition">Blog</a></li>
+                        <li><a href="Contact.html" class="hover:text-[#eab308] transition">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-bold mb-6">Services</h3>
+                    <ul class="space-y-4 text-sm">
+                        <li><a href="ServiceType.html" >Basic Package</a></li>
+                        <li><a href="ServiceType.html" >Advanced Package</a></li>
+                        <li><a href="ServiceType.html" >Premium Package</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-bold mb-6">Resources</h3>
+                    <ul class="space-y-4 text-sm">
+                        <li><a href="Blog.html" >Study in Germany</a></li>
+                        <li><a href="Blog.html" >University Admission</a></li>
+                        <li><a href="#" >Visa & Preparation</a></li>
+                        <li><a href="#" >FAQ</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class=" endSection pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p>© 2026 Edubruke. All rights reserved.</p>
+                <div class="flex gap-8">
+                    <a href="#" class="hover:text-white transition">Privacy Policy</a>
+                    <a href="#" class="hover:text-white transition">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--------------------------------------->
+ 
+<script> 
+
+</script>
+<script src="./tailwind.config.js"></script>
+</body>
+
+</html> 

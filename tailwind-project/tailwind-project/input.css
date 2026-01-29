@@ -1001,3 +1001,50 @@ font-size: 16px;
     color: #41444a;
     font-size: 16px;
 }
+.manageSection{
+  background:#eef1f5 ;
+}
+
+.manageSection .manage{
+    background-color: #ffffff;
+    border-radius: 2.5rem;
+    padding: 35px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid #f8fafc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+.manageSection .icon{
+color: rgba(197, 160, 89, 0.2);
+}
+
+blockquote{
+   color: #1e293b;            
+    font-size: 1.2rem;      
+    font-weight: 500;         
+    line-height: 1.8;          
+    font-style: italic;       
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 2.5rem auto;
+    font-family: 'Inter', sans-serif;
+}
+.manageSection h4{
+  color: #0f172a;        
+    font-weight: 700;      
+    font-size: 1.25rem;    
+    margin-bottom: 0.25rem;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.2;
+}
+.manageSection p{
+    font-size: 0.875rem;   
+    font-weight: 400;      
+    margin-bottom: 0.25rem;
+    font-family: 'Inter', sans-serif;
+}
