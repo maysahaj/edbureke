@@ -1811,11 +1811,6 @@ button:hover {
   line-height: 1.25;
   margin-bottom: 1.5rem;
 }
-@media (max-width: 768px) {
-  .decription-start h2 {
-    font-size: 2rem;
-  }
-}
 .decription-start p {
   color: #d1d5db;
   font-size: 1.125rem;
