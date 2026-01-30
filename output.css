@@ -1758,16 +1758,35 @@ section h3 {
 section h2 {
   color: #0f2a4a;
 }
+.whySection {
+  background-color: #f9fafb;
+}
 .whySection .icon {
   background: #d4a74c;
 }
 .whySection .card {
   background-color: white;
-  border: 1px solid #d4a74c;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 2rem;
+  border-radius: 2rem;
+  border: 1px solid #c0c3c8;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .whySection .card:hover {
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+.whySection h3 {
+  color: #C5A059;
+  font-weight: 700;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.75rem;
+  display: block;
+  line-height: 1.5;
 }
 .ourService p,.ourService .grid h3 {
   text-align: left;
