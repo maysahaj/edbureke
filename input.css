@@ -488,6 +488,7 @@ footer .endSection a:hover {
   text-transform: uppercase; 
   margin-bottom: 1rem;    
   display: block;
+  padding-top: 30px;
 }
 
 .aboutSec1 h1{
