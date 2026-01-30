@@ -39,4 +39,11 @@ module.exports = {
 }
 
 
-
+window.addEventListener('scroll', function() {
+    const header = document.querySelector('header');
+    if (window.scrollY > 50) {
+        header.classList.add('shadow-lg', 'bg-white');
+    } else {
+        header.classList.remove('shadow-lg');
+    }
+});
