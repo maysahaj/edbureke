@@ -11,7 +11,7 @@
 </head>
 <body > 
     <!------------------------------>
-    <header class="fixed top-0 left-0 right-0 z-[100]">
+    <header id="navbar" class="fixed top-0 left-0 right-0 z-[100]">
         <div class="container mx-auto">
         <section >
             <nav class="flex items-center justify-between  py-3 px-2 lg:px-16 mx-auto max-w-7xl">
@@ -673,6 +673,17 @@
  
 <script> 
     
+document.addEventListener('DOMContentLoaded', function() {
+    const header = document.getElementById('navbar');
+
+    window.onscroll = function() {
+        if (window.scrollY > 20) {
+            header.classList.add('header-red');
+        } else {
+            header.classList.remove('header-red');
+        }
+    };
+});
 </script>
 <script src="./tailwind.config.js"></script>
 </body>

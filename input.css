@@ -1382,3 +1382,17 @@ blockquote{
   background-color: #1B3C59;
   color:white;
 }
+
+.header-red {
+    background-color: rgba(190, 188, 188, 0.85) !important; /* أحمر صريح */
+    box-shadow: 1px 5px 15px 1px rgba(0,0,0,0.3);
+
+    color: #041f51;
+}
+
+/* لتغيير لون النص للأبيض عند السكرول لضمان الرؤية */
+.header-red a, 
+.header-red span, 
+.header-red i {
+    color: #041f51;;
+}
