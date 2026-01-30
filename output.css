@@ -755,9 +755,6 @@
   .border-gray-100 {
     border-color: var(--color-gray-100);
   }
-  .border-gray-200 {
-    border-color: var(--color-gray-200);
-  }
   .border-white {
     border-color: var(--color-white);
   }
@@ -1411,14 +1408,6 @@
       }
     }
   }
-  .hover\:brightness-105 {
-    &:hover {
-      @media (hover: hover) {
-        --tw-brightness: brightness(105%);
-        filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
-      }
-    }
-  }
   .focus\:outline-none {
     &:focus {
       --tw-outline-style: none;
@@ -1827,7 +1816,7 @@ button:hover {
 }
 button {
   background-color: rgba(255, 255, 255, 0.1);
-  color: white;
+  color: #0b1d3f;
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 1rem 2rem;
   border-radius: 0.75rem;
@@ -1837,7 +1826,7 @@ button {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
 }
-.button:hover {
+button:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 .button1 {

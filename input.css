@@ -122,7 +122,7 @@ button:hover{
 }
  button {
   background-color: rgba(255, 255, 255, 0.1);
-  color: white;
+  color: #0b1d3f;
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 1rem 2rem;
   border-radius: 0.75rem;
@@ -133,7 +133,7 @@ button:hover{
   -webkit-backdrop-filter: blur(4px); 
 }
 
- .button:hover {
+ button:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
  .button1{
@@ -145,8 +145,8 @@ footer{
 }
 footer .desc-logo{
   background-color: #eab308;
-    padding: 0.5rem; /* يعادل 8px */
-    border-radius: 0.5rem; /* يعادل 8px */
+    padding: 0.5rem;
+    border-radius: 0.5rem;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 
                 0 4px 6px -2px rgba(0, 0, 0, 0.05);
     display: inline-flex;
