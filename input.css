@@ -5,9 +5,75 @@
   --color-brand-blue: #1B3651;
   --color-brand-gold: #eab308;
 }
+header{
+  background-color: white;
+}
+header a:hover {
+    color: #eab308; 
+    transform: translateX(2px); 
+}
+header .flex span{
+font-size: 9px;
+  color: #9ca3af;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+header .flex .span1{
+font-size: 1.25rem;
+  font-weight: 700;
+  color: #0A2647;
+  letter-spacing: -0.025em;
+}
+
+
 .mainSection{
   background:#1B3651;
   color: white;
+}
+
+.mainSection .top-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.375rem 1rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+  backdrop-filter: blur(4px);
+  text-transform: uppercase;
+}
+
+
+.mainSection .top-title i {
+  font-size: 0.875rem;
+  color: #eab308;
+}
+.mainSection .top-title span {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 9999px;
+  background-color: #facc15;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.mainSection h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+  color: #ffffff;
+}
+
+@media (min-width: 1024px) {
+  .mainSection h1 {
+    font-size: 3rem;
+  }
 }
 section h3{
   color: #d4a74c;
