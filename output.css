@@ -295,9 +295,6 @@
   .left-6 {
     left: calc(var(--spacing) * 6);
   }
-  .isolate {
-    isolation: isolate;
-  }
   .-z-10 {
     z-index: calc(10 * -1);
   }
@@ -1713,6 +1710,7 @@
 }
 .mainSection {
   background: #1B3651;
+  color: white;
 }
 section h3 {
   color: #d4a74c;
