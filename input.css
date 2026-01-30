@@ -12,6 +12,16 @@ header a:hover {
     color: #eab308; 
     transform: translateX(2px); 
 }
+header a{
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #4b5563;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+header a.active{
+  color: #eab308; 
+}
 header .flex span{
 font-size: 9px;
   color: #9ca3af;
