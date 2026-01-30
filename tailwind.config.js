@@ -1,4 +1,14 @@
-  // الحصول على العناصر من الصفحة
+document.addEventListener('DOMContentLoaded', function() {
+    const header = document.getElementById('navbar');
+
+    window.onscroll = function() {
+        if (window.scrollY > 20) {
+            header.classList.add('header-red');
+        } else {
+            header.classList.remove('header-red');
+        }
+    };
+});
   const menuBtn = document.getElementById('menu-btn');
   const mobileMenu = document.getElementById('mobile-menu');
 
