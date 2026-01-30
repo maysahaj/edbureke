@@ -1761,8 +1761,19 @@ section h2 {
 .whySection {
   background-color: #f9fafb;
 }
-.whySection .icon {
-  background: #d4a74c;
+.whySection .card .icon {
+  background-color: #e4eef8;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  transition-duration: 300ms;
+}
+.group:hover .whySection .icon {
+  background-color: #1B3651;
+  color: #ffffff;
 }
 .whySection .card {
   background-color: white;
