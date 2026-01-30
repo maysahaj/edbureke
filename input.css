@@ -249,8 +249,29 @@ section h2{
 .ourService p,.ourService .grid h3{
   text-align: left;
 }
+.whySection h2 {
+  color: #1B3C59; 
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+@media (min-width: 768px) {
+  .whySection h2 {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
  
-
+.whySection .card h4 {
+  font-size: 1.2rem; 
+  line-height: 1.25rem;
+  font-weight: 700;
+  color: #1B3C59;
+  transition: color 0.3s ease;
+}
 button:hover{
   background-color: #eab308;
 }
