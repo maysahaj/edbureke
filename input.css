@@ -107,6 +107,50 @@ font-size: 1.25rem;
     font-size: 3rem;
   }
 }
+.mainSection .icon i {
+  color: #facc15;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainSection .icon{
+  font-size: 0.875rem; 
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+.mainSection .icon1 {
+  background-color: #eab308;
+  color: #111827;
+  font-weight: 700;
+  padding: 1rem 2rem;
+
+  border-radius: 1rem;
+
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 
+              0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  gap: 0.75rem; 
+}
+.mainSection .icon2{
+  background-color: #0A2647;
+  color: #ffffff;
+}
+.mainSection .icon1:hover {
+  background-color: #facc15; 
+  transform: translateY(-3px);
+  box-shadow: 0 25px 30px -5px rgba(0, 0, 0, 0.2);
+}
+.mainSection .icon1:active {
+  transform: scale(0.96);
+}
 section h3{
   color: #d4a74c;
 }
