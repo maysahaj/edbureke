@@ -724,8 +724,12 @@ border-radius: 2rem;
   background-size: 32px 32px;
   background-position: 0 0, 16px 16px;
 }
-.formSection{
-
+.mainSection .absolute{
+  background-image: 
+  radial-gradient(circle, #ffffff 1px, transparent 1px), 
+  radial-gradient(circle, #ffffff 1px, transparent 1px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
 }
 .formSection{
     padding: 1.5rem; 
