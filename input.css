@@ -462,10 +462,27 @@ footer .endSection a {
 footer .endSection a:hover {
     color: #ffffff;
 }
+.ourStories{
+  background: white;
+}
 
-/*aboutsection*/
+.ourStories .card {
+  position: relative;
+  background-color: #ffffff;
+  padding: 2.5rem; /* 40px */
+  border-radius: 2.5rem;
+  box-shadow: 5px 20px 25px -5px rgba(243, 244, 246, 1), 
+              0 10px 10px -5px rgba(243, 244, 246, 0.4);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #dadce0;
+}
+.ourStories .card:hover {
+  transform: translateY(-0.5rem); /* -8px */
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.08);
+}
 .aboutSec1{
-  /* Color and Background */
   background-color: #0b1d3f;
   padding: 1.5rem;
     text-align: left;
